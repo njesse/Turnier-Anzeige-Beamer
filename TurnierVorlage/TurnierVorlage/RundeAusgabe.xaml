@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Runde"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TurnierVorlage"
+             mc:Ignorable="d" Height="105.09" Width="297.467" Foreground="#FF8B8B8B" Background="#FFD4D4D4">
+    <Grid  >
+        <TextBox x:Name="txtHeader" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" TextWrapping="Wrap" Text="Spiel X: 12:34 Uhr" VerticalAlignment="Top" Width="279" FontSize="14" TextAlignment="Center"/>
+        <TextBox x:Name="txtTeam1Name" HorizontalAlignment="Left" Height="24" Margin="10,40,0,0" TextWrapping="Wrap" Text="Team1" VerticalAlignment="Top" Width="214" FontSize="14" TextAlignment="Center" TextDecorations="{x:Null}"/>
+        <TextBox x:Name="txtTeam1Punkte" HorizontalAlignment="Left" Height="24" Margin="229,40,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontSize="14" TextAlignment="Center"/>
+        <TextBox x:Name="txtTeam2Name" HorizontalAlignment="Left" Height="24" Margin="10,69,0,0" TextWrapping="Wrap" Text="Team2" VerticalAlignment="Top" Width="214" FontSize="14" TextAlignment="Center"/>
+        <TextBox x:Name="txtTeam2Punkte" HorizontalAlignment="Left" Height="24" Margin="229,69,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="60" FontSize="14" TextAlignment="Center"/>
+    </Grid>
+</UserControl>
